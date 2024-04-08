@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+//This model attribute for banking
 
 @Entity
 @Table(name="accounts")
@@ -54,8 +55,6 @@ public class Account {
 
 	public void setBalance(double balance) {
 		this.balance = balance;
-	}
-
-	 
+	}	 
 }
 
